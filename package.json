@@ -1,0 +1,13 @@
+{
+  "name": "edi-sftp-relay",
+  "version": "1.0.0",
+  "description": "HTTPS-to-SFTP relay for Availity EDI file submission",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "ssh2-sftp-client": "^10.0.3"
+  }
+}
